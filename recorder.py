@@ -19,7 +19,7 @@ stream_url = 'http://streamurl...'
 
 r = requests.get(stream_url, stream=True)
 
-isim=str(time.strftime("rec[%d.%b-%a--(%H.%M)].mp3"))
+isim=str(time.strftime("rec%b%d18.mp3"))
 
 log("Record")
 with open(isim, 'wb') as f:

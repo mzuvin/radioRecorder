@@ -1,0 +1,4 @@
+55 14 * * * python recorder.py
+37 15 * * * python ftpupload.py
+
+0 0 1,8,15,22,29 * * python deletefolder.py
